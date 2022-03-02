@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
-    
 }
 
 main {
@@ -15,7 +14,7 @@ main {
 
 .panel {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,12 +22,13 @@ main {
     width: 70%;
     max-width: 350px;
     padding-bottom: 2em;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 }
 
 .qrImage {
     border-radius: 15px;
     margin: 15px;
+    margin-bottom: 0;
 }
 
 h1 {
@@ -43,7 +43,7 @@ p {
     color:hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 15px;
-    margin: 1em;
+    margin: 0 1em .5em 1em;
     letter-spacing: 1.5px;
 }
 
