@@ -19,16 +19,15 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 65%;
-    max-width: 350px;
+    width: 100%;
+    max-width: 330px;
     padding-bottom: 2em;
-    /* margin-bottom: 2em; */
+    margin-bottom: 2em;
 }
 
 .qrImage {
     border-radius: 15px;
     margin: 15px;
-    margin-bottom: 0;
 }
 
 h1 {
